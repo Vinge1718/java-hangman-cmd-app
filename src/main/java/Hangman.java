@@ -20,6 +20,10 @@ public class Hangman{
                 /* - Since characters in java strings are immutable (can't reassign/replace with new values). We create a new string of asterics
                 -- 1. Get the length of the random word selected.
                 -- 2. create a new string whose length is based on the randomly selected word by creating new characters from the newly parsed string object.
+
+                -- alternatively --
+                int randomNum = (int) (Math.random() * words.length);
+                word = words[randomNum];
                 */
 
     private static String asterisk = new String(new char[word.length()]).replace("\0", "*");
