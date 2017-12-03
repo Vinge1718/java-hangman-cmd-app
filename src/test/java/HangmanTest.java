@@ -5,9 +5,12 @@ import java.util.ArrayList;
 
 public class HangmanTest{
     @Test
-    public void hang_displayRandomWord_String(){
+    public void getWords_displayRandomWord_String(){
         Hangman testHangman = new Hangman();
         String[] expectedOutput = {"weather", "program", "computer", "animals", "beverage", "entertaiment" };
         assertEquals(expectedOutput, testHangman.getWords());
     }
+
+    @Test
+    public void hang
 }
