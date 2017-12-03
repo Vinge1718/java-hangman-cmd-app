@@ -2,7 +2,8 @@
 
 ## About
 
-This is a word game where you must guess letters which make up a word else your avatar/man gets the noose. You have a set number of guesses you are able to make before your man gets hanged. The JUnit tests are shown in the test folder.
+- This is a word game where you must guess letters which make up a word else your avatar/man gets the noose. You have a set number of guesses you are able to make before your man gets hanged. The JUnit tests are shown in the test folder.
+- This project is also aimed at demonstrating a test dependent development process.
 
 ## Contributors
 
@@ -12,7 +13,7 @@ This is a word game where you must guess letters which make up a word else your 
 - [Java](http://www.oracle.com/technetwork/java/index.html)
 
 ## Setup
-- Clone or downlad repo from []()
+- Clone or downlad repo from [Here](https://github.com/Vinge1718/java-hangman-cmd-app)
 
 ## Licensing
 All the work included has been dedicated to the public domain by waiving all of my rights to the work, under
