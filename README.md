@@ -27,6 +27,9 @@
 - In a separate tab in the console, navigate to the build directory: `$ cd build/classes/main`.
 - Then to start the game run `$ java App`.
 
+## Known Problems
+If you don't enter a letter and go ahead to click enter the app throws an error. Null data-types are not accounted for yet.
+
 ## Licensing
 All the work included has been dedicated to the public domain by waiving all of my rights to the work, under
 copyright law, including all related and neighboring rights, to the extent allowed by law.
