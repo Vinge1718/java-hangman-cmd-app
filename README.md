@@ -2,8 +2,17 @@
 
 ## About
 
-- This is a word game where you must guess letters which make up a word else your avatar/man gets the noose. You have a set number of guesses you are able to make before your man gets hanged. The JUnit tests are shown in the test folder.
-- This project is also aimed at demonstrating a test dependent development process.
+- This project is aimed at demonstrating a test dependent development process.
+
+## Rules of the Game:
+* The computer chooses a word and player tries to guess what it is one letter at a time.
+* The computer prints number of asterisks(\*) equivalent to the number of letters in the word.
+* If the guessing player suggests a letter that occurs in the word, the computer fills in the blanks with that letter in the right places.
+* If the word does not contain the suggested letter, the computer draws one element of a hangman’s gallows.
+* As the game progresses, a segment of the gallows and of a victim is added for every suggested letter not in the word.
+* If the completed hangman’s gallows is drawn then the player loses.
+* Otherwise, if all the right letters are guessed before this then the player wins.
+
 
 ## Contributors
 
