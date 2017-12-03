@@ -1,9 +1,7 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 
-public class RectangleTest{
+public class HangmanTest{
     @Test
-    public void ___{
-        
-    }
+    
 }
