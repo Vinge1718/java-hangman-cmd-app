@@ -50,7 +50,12 @@ public class Hangman{
 			}
 		}
 
-
+                /*
+                Back to back if statements meant to
+                -- 1. Iterate the gallows images if the guess was wrong hence the asterisized word hasn't changed relative to the correctGuesses variable
+                -- 2. Otherwise if the guess was correct, the assign the astrisized word the current/updated value of the correctGuesses so far
+                -- 3. When the asterisized word finally equals the word from which it was asterisized from a win for the player is declared
+                */
 
         if (asterisk.equals(correctGuesses)) {
 			count++;
@@ -62,8 +67,6 @@ public class Hangman{
 			System.out.println("Correct! You win! The word was " + word);
 		}
 	}
-
-
 
                 //implementing getter methods for the variables
 

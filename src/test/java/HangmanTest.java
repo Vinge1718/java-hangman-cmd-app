@@ -18,10 +18,21 @@ public class HangmanTest{
         String expectedOutput = testWords[(int) (Math.random() * testWords.length)].getClass().getName();
         assertEquals(expectedOutput, testHangman.getWord().getClass().getName());
     }
-    /*
+
     @Test
-    public void getAsterisk_outPutGuessedLetter_true(){
+    public void getAsterisk_convertRandomlySelectedWordToAsterics_String(){
         Hangman testHangman = new Hangman();
-        assertEquals(true, testHangman.getAsterisk(asterisk).contains('*');
-    }*/
+        String testWord = "weather";
+        String expectedOutput = "*******";
+        assertEquals(expectedOutput, testHangman.getAsterisk());
+    }
+/*
+    @Test
+    public void hang_replaceAstesriskWithCharacters_String(){
+        Hangman testHangman = new Hangman();
+        String testAsterick = "*******";
+        String expectedOutput = "animals";
+        assertEquals(expectedOutput, testHangman)
+    }
+    */
 }
