@@ -23,8 +23,9 @@
 
 ## Setup
 - Clone or downlad repo from [Here](https://github.com/Vinge1718/java-hangman-cmd-app)
+- Download latest version of `java` and `gradle`.
 - from the parent directory, run `$ gradle compileJava`.
-- In a separate tab in the console, navigate to the build directory: `$ cd build/classes/main`.
+- In a separate tab in the console, from the parent directory navigate to the build directory: `$ cd /build/classes/java/main`.
 - Then to start the game run `$ java App`.
 
 ## Known Problems
